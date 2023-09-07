@@ -32,7 +32,7 @@ const Detail = ({ page }) => {
                 <title>{page.title}</title>
             </Head>
             <div className="container dark:text-gray-300">
-                <div className="flex justify-center items-center mt-10">
+                <div className="flex justify-center items-center mt-5">
                     <div className="flex justify-start items-center w-1/2 cursor-pointer" onClick={handleBack}>
                         <div>
                             <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">

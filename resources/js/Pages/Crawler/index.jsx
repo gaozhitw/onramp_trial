@@ -80,7 +80,7 @@ const Index = ({ pages }) => {
             <Head>
                 <title>Web Crawler</title>
             </Head>
-            <div className="flex justify-center mt-20">
+            <div className="flex justify-center mt-12">
                 <input type="text" className={`border border-gray-400 p-2 w-1/3 rounded disabled:bg-gray-300 ${hasError ? 'border-2 border-red-600 bg-red-200' : ''}`} value={url} onInput={handleInput} placeholder="http(s)://example.com" disabled={disabled} />
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-1 disabled:bg-blue-300" onClick={handleSubmit} disabled={disabled}>
                     {disabled ? (
